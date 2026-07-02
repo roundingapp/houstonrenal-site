@@ -5,21 +5,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Houston Renal Group | Nephrology Specialists — Texas Medical Center</title>
 <meta name="description" content="Houston Renal Group is a Houston-based nephrology practice in the Texas Medical Center offering chronic kidney disease care, dialysis and transplant management, consultative nephrology, and vascular access services.">
-<meta name="theme-color" content="#a12734">
+<meta name="theme-color" content="#b32025">
 <link rel="canonical" href="https://houstonrenal.com/">
 <!-- Open Graph -->
 <meta property="og:title" content="Houston Renal Group | Nephrology Specialists">
 <meta property="og:description" content="A Houston-based nephrology specialty practice serving the Texas Medical Center and greater Houston area.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://houstonrenal.com/">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23a12734'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='16' font-weight='700' fill='white' text-anchor='middle'%3EHR%3C/text%3E%3C/svg%3E">
+<meta property="og:image" content="https://houstonrenal.com/assets/og-image.png">
+<link rel="icon" type="image/png" href="assets/favicon-64.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <style>
   :root{
-    /* brand palette: dark crimson (var names kept from the teal original) */
-    --teal:#a12734; --teal-dark:#85202c; --teal-deep:#571820;
-    --accent:#c96a72; --sand:#f4efea; --ink:#2a2022; --muted:#6d5c5f;
+    /* brand palette: HRG logo red #b32025 (var names kept from the teal original) */
+    --teal:#b32025; --teal-dark:#8f191d; --teal-deep:#5a1215;
+    --accent:#cd5a5e; --sand:#f4efea; --ink:#2a2022; --muted:#6d5c5f;
     --line:#eadfe0; --bg:#ffffff; --soft:#faf5f5;
-    --shadow:0 1px 2px rgba(87,24,32,.06),0 8px 30px rgba(87,24,32,.06);
+    --shadow:0 1px 2px rgba(90,18,21,.06),0 8px 30px rgba(90,18,21,.06);
     --radius:16px;
   }
   *{box-sizing:border-box}
@@ -43,11 +45,9 @@
   header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);
     border-bottom:1px solid var(--line)}
   .nav{display:flex;align-items:center;justify-content:space-between;height:72px}
-  .brand{display:flex;align-items:center;gap:12px;font-family:Georgia,serif;font-weight:700;font-size:20px;color:var(--teal-deep)}
-  .brand .mark{width:40px;height:40px;border-radius:10px;background:var(--teal);display:grid;place-items:center;
-    color:#fff;font-size:18px;flex:0 0 auto}
-  .brand small{display:block;font-family:-apple-system,sans-serif;font-weight:500;font-size:11px;
-    letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  .brand{display:flex;align-items:center}
+  .brand img{height:48px;width:auto;display:block}
+  @media(max-width:480px){.brand img{height:40px}}
   nav ul{display:flex;gap:26px;list-style:none;margin:0;padding:0;align-items:center}
   nav ul a{color:var(--ink);font-size:15px;font-weight:500}
   nav ul a:hover{color:var(--teal);text-decoration:none}
@@ -155,8 +155,7 @@
 <header>
   <div class="wrap nav">
     <a href="#top" class="brand" aria-label="Houston Renal Group home">
-      <span class="mark">HR</span>
-      <span>Houston Renal Group<small>Nephrology Specialists</small></span>
+      <img src="assets/hrg-logo.png" alt="HRG — Houston Renal Group">
     </a>
     <nav>
       <ul class="links" id="menu">
