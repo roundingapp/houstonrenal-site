@@ -15,6 +15,48 @@
 <meta property="og:image" content="https://houstonrenal.com/assets/og-image.png">
 <link rel="icon" type="image/png" href="assets/favicon-64.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalClinic",
+  "@id": "https://houstonrenal.com/#clinic",
+  "name": "Houston Renal Group",
+  "description": "Houston-based nephrology specialty practice in the Texas Medical Center offering chronic kidney disease screening and management, dialysis and transplant care, consultative nephrology, and vascular access services.",
+  "url": "https://houstonrenal.com/",
+  "logo": "https://houstonrenal.com/assets/hrg-logo.png",
+  "image": "https://houstonrenal.com/assets/og-image.png",
+  "telephone": "+1-346-570-1700",
+  "email": "office@houstonrenal.com",
+  "medicalSpecialty": "Nephrology",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "2201 W. Holcombe Blvd., Ste. 320",
+    "addressLocality": "Houston",
+    "addressRegion": "TX",
+    "postalCode": "77030",
+    "addressCountry": "US"
+  },
+  "hasMap": "https://www.google.com/maps?q=2201+W+Holcombe+Blvd+Suite+320+Houston+TX+77030",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "09:00",
+    "closes": "17:00"
+  },
+  "availableService": [
+    {"@type": "MedicalTherapy", "name": "Chronic kidney disease (CKD) screening and management"},
+    {"@type": "MedicalTherapy", "name": "Dialysis care"},
+    {"@type": "MedicalTherapy", "name": "Kidney transplant care"},
+    {"@type": "MedicalTherapy", "name": "Consultative nephrology (hospital and office)"},
+    {"@type": "MedicalTherapy", "name": "Vascular access intervention and management"},
+    {"@type": "MedicalTherapy", "name": "Hypertension management"}
+  ],
+  "employee": [
+    {"@type": "Physician", "name": "Neil Sutaria, M.D.", "medicalSpecialty": "Nephrology", "worksFor": {"@id": "https://houstonrenal.com/#clinic"}},
+    {"@type": "Physician", "name": "Deepa Koshti, M.D.", "medicalSpecialty": "Nephrology", "worksFor": {"@id": "https://houstonrenal.com/#clinic"}}
+  ]
+}
+</script>
 <style>
   :root{
     /* brand palette: HRG logo red #b32025 (var names kept from the teal original) */
@@ -137,7 +179,7 @@
   footer{background:var(--teal-deep);color:rgba(255,255,255,.8);padding:52px 0 26px}
   .foot{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:32px}
   @media(max-width:720px){.foot{grid-template-columns:1fr;gap:24px}}
-  footer h4{color:#fff;font-family:-apple-system,sans-serif;font-size:.82rem;letter-spacing:.1em;
+  footer h3{color:#fff;font-family:-apple-system,sans-serif;font-size:.82rem;letter-spacing:.1em;
     text-transform:uppercase;margin:0 0 14px}
   footer a{color:rgba(255,255,255,.8)}
   footer a:hover{color:#fff}
@@ -329,7 +371,7 @@
       <p style="margin:0;max-width:320px">A Houston-based nephrology specialty practice serving the Texas Medical Center and greater Houston area.</p>
     </div>
     <div>
-      <h4>Quick Links</h4>
+      <h3>Quick Links</h3>
       <ul>
         <li><a href="#services">Services</a></li>
         <li><a href="#about">About Us</a></li>
@@ -338,7 +380,7 @@
       </ul>
     </div>
     <div>
-      <h4>Contact</h4>
+      <h3>Contact</h3>
       <ul>
         <li>2201 W. Holcombe Blvd., Ste. 320</li>
         <li>Houston, TX 77030</li>
